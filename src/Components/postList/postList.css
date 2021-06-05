@@ -1,0 +1,24 @@
+.upload__button {
+    border-radius: 10%;
+    height: 30px;
+    background-color: lightblue;
+}
+
+.postList__container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.imagenes__container {
+ width: 100%;
+ display:flex;
+ flex-direction: column;
+ flex-wrap: wrap;
+ align-items: center;
+ justify-content: center;
+}

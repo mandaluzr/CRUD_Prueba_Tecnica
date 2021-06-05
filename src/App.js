@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from "./Components/header/header";
+import Footer from "./Components/footer/footer";
+import PostList from "./Components/postList/postList";
+import CreatePost from "./Components/createPost/createPost";
+import ViewPost from "./Components/viewPost/viewPost";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+
+import imagenFondo from "./Assets/imagenFondo.jpg";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Router>
+        <Header />
+        <Switch>
+          <Route exact path="/" >
+          <PostList />
+          </Route>
+          <Route exact path="/createpost">
+            <CreatePost />
+          </Route>
+          <Route component={ViewPost} exact path="/post/:id" />
+        </Switch>
+        <Footer />
+      </Router>
     </div>
   );
 }
 
 export default App;
+
+//      /* <img src={imagenFondo} alt="fondoSutil" />*/
