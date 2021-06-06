@@ -4,16 +4,14 @@ import CreatePost from "./Components/createPost/createPost";
 import ViewPost from "./Components/viewPost/viewPost";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
-import imagenFondo from "./Assets/imagenFondo.jpg";
-
 function App() {
   return (
     <div>
       <Router>
         <Header />
         <Switch>
-          <Route exact path="/" >
-          <PostList />
+          <Route exact path="/">
+            <PostList />
           </Route>
           <Route exact path="/createpost">
             <CreatePost />

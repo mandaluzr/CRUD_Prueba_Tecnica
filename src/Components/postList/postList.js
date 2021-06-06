@@ -1,34 +1,39 @@
-import React from "react";
-
+import { getPosts } from "../../Services/posts";
+import React, { useEffect, useState } from "react";
 
 import "./postList.css";
-import PostData from "../../Data/posts.json";
 
 const PostList = () => {
+  const [posts, setPosts] = useState([]);
 
-    const handleToggle = (e) => {
-        console.log('quiero hacer upload');
-    };
+  const handleToggle = (e) => {
+    console.log("quiero hacer upload");
+  };
 
+  useEffect(() => {
+    async function fetch() {
+      const data = await getPosts();
 
+      setPosts(data.data);
+    }
 
+    fetch();
+  }, []);
 
   return (
     <div className="postList__container">
       <h1>HOLITAS PERRITO MALVADO</h1>
 
-      <button className="upload__button" type="file" onClick={handleToggle} > Cargar Imagen </button>
+      <button className="upload__button" type="file" onClick={handleToggle}>
+        {" "}
+        Cargar Imagen{" "}
+      </button>
 
-      {PostData.map((postDetail, index) => {
+      {posts.map((postDetail, index) => {
         return (
-          <div className="imagenes__container">
+          <div className="imagenes__container" key={`post-${postDetail.id}`}>
             <h1>{postDetail.title} </h1>
-            <img
-              src={postDetail.image}
-              alt="cover"
-              width={460}
-              height={260}
-            />
+            <img src={postDetail.image} alt="cover" width={460} height={260} />
           </div>
         );
       })}

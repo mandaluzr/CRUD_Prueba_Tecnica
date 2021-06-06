@@ -1,9 +1,9 @@
 import React from "react";
-import PostData from '../../Data/posts.json'
+// import PostData from '../../Data/posts.json'
 
 const ViewPost = (...props) => {
-
-    const post = PostData.match.params.id;
+    return null;
+    const post = [];
     console.log(props)
 
   return (
