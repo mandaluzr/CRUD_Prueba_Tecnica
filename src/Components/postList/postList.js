@@ -1,14 +1,34 @@
 import { getPosts } from "../../Services/posts";
 import React, { useEffect, useState } from "react";
+import {Link} from 'react-router-dom';
 
 import "./postList.css";
 
 const PostList = () => {
   const [posts, setPosts] = useState([]);
+  const [filteredPosts, setFilteredPosts] = useState([]);
 
   const handleToggle = (e) => {
-    console.log("quiero hacer upload");
+    return;
   };
+
+
+function handleChange(e) {
+  const type = e.target.value;
+  const filteredPostsTest = posts.filter((post) => post.type === type);
+  
+  setFilteredPosts(filteredPosts);
+
+    posts.filter(filteredPostsTest => {
+      return filteredPostsTest.type
+    })
+    console.log(type);
+}
+
+  /*    setPostSimple({
+        ...postSimple,
+        [e.target.name]: e.target.value
+    }); */
 
   useEffect(() => {
     async function fetch() {
@@ -25,7 +45,7 @@ const PostList = () => {
       <h1>HOLITAS PERRITO MALVADO</h1>
 
     <div className="select__container" >
-      <select className="select__button" type="file" onClick={handleToggle}>
+      <select className="select__button" type="file"  placeholder="Filter" onClick={handleToggle} onChange={handleChange}>
         {" "}
         <option>
         Simple{" "} 
@@ -43,7 +63,9 @@ const PostList = () => {
         return (
           <div className="imagenes__container" key={`post-${postDetail.id}`}>
             <h1>{postDetail.title} </h1>
+            <Link to={`/post/${postDetail.id}`}>
             <img src={postDetail.image} alt="cover" width={460} height={260} />
+            </Link>
           </div>
         );
       })}

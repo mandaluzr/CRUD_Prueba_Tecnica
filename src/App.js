@@ -1,12 +1,18 @@
 import Header from "./Components/header/header";
+import Footer from "./Components/footer/footer";
 import PostList from "./Components/postList/postList";
 import CreatePost from "./Components/createPost/createPost";
 import ViewPost from "./Components/viewPost/viewPost";
+
+
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
+import './App.css';
+
 function App() {
+
   return (
-    <div>
+    <div className="contenedor"> 
       <Router>
         <Header />
         <Switch>
@@ -18,8 +24,9 @@ function App() {
           </Route>
           <Route component={ViewPost} exact path="/post/:id" />
         </Switch>
+        <Footer />
       </Router>
-    </div>
+    </div>  
   );
 }
 
