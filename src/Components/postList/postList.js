@@ -24,10 +24,20 @@ const PostList = () => {
     <div className="postList__container">
       <h1>HOLITAS PERRITO MALVADO</h1>
 
-      <button className="upload__button" type="file" onClick={handleToggle}>
+    <div className="select__container" >
+      <select className="select__button" type="file" onClick={handleToggle}>
         {" "}
-        Cargar Imagen{" "}
-      </button>
+        <option>
+        Simple{" "} 
+        </option>
+        <option>
+        Custom{" "} 
+        </option>
+        <option>
+        Advanced{" "} 
+        </option>
+      </select>
+      </div>
 
       {posts.map((postDetail, index) => {
         return (

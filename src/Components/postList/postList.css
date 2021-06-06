@@ -1,24 +1,48 @@
-.upload__button {
+.select__container {
+    padding: 5px;
+    margin: 5px;
+    width: 80%;
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    border-color: 10 10 black solid !important;
+    background-color: lightblue;
+    border: 4px 4px black solid;
+}
+
+.select__button {
     border-radius: 10%;
+    width: 100px;
     height: 30px;
     background-color: lightblue;
+    display: flex;
 }
 
 .postList__container {
     width: 100%;
     height: 100%;
     display: flex;
-
     flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
+    background-image: "";
+}
+
+img {
+    max-height: 100px;
 }
 
 .imagenes__container {
- width: 100%;
+ padding: 5px;
+ margin: 5px;
+ width: 80%;
  display:flex;
  flex-direction: column;
  flex-wrap: wrap;
  align-items: center;
  justify-content: center;
+ border-color: 10 10 black solid !important;
+ background-color: lightblue;
+ border: 4px 4px black solid;
 }
