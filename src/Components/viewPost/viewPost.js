@@ -24,7 +24,7 @@ const ViewPost = (props) => {
       <span className="viewpost__description">{post.text}</span>
       <div className="imagenes__container">
         <h2>{post.title}</h2>
-        <img src={post.image} alt="LOREM IPSUM" width={460} height={260} />
+        <img src={post.image} alt="" width={460} height={260} />
       </div>
       <div className="viewpost__button__container">
         <div className="date__input">

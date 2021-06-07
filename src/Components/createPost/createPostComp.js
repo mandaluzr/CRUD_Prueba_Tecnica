@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { createPost } from "../../Services/post";
 
+import {Link} from 'react-router-dom';
+
 import './createPostComp.css';
 
 const CreatePostComp = (post) => {
@@ -17,10 +19,8 @@ const CreatePostComp = (post) => {
 
     async function handleCreatePost(e) {
       e.preventDefault();
-      createPost();
-
+      createPost(post);
       console.log('PROBADO EL CREATE');
-
     }
 
 

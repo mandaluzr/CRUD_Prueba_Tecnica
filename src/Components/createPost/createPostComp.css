@@ -29,9 +29,8 @@
 .createPost__form input[type="text"],
 .createPost__form input[type="text"],
 .createPost__form input[type="text"]:focus,
-,
 .createPost__form:focus {
-  border: 5px solid #387bea;
+  border: 1px solid #387bea;
 }
 
 .createPost__input__container {

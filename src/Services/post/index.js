@@ -30,6 +30,7 @@ export const createPost = async ({ type, title, text, image, date }) => {
       image,
       date,
     });
+    alert('Has creado tu post!')
 
     return data;
   } catch (error) {}
