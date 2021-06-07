@@ -1,3 +1,8 @@
 .contenedor {
-    background: linear-gradient( rgb(236, 231, 232), rgb(107, 107, 247))
+    background: linear-gradient( rgb(236, 231, 232), rgb(107, 107, 247));
 }
+
+*{
+    font-family: 'Courier';
+}
+
