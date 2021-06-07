@@ -1,5 +1,5 @@
 import { API_URL } from "../../Utils/constants";
-import { delete as httpDelete, get, post  } from "axios";
+import { delete as httpDelete, get, post } from "axios";
 
 export const getPost = async (id) => {
   try {
@@ -9,22 +9,28 @@ export const getPost = async (id) => {
   } catch (error) {}
 };
 
-export const deletePost = async (id) => {
+export const deletePost = async (id, push) => {
   try {
     const data = await httpDelete(`${API_URL}/posts/${id}`);
 
+    push("/");
+
     return data;
   } catch (error) {
-    console.log('no se pudo eliminar')
+    console.log("no se pudo eliminar");
   }
 };
 
-export const createPost = async ({type, title, text, image, date}) => {
+export const createPost = async ({ type, title, text, image, date }) => {
   try {
-    const data = await post(`${API_URL}/posts`,{type, title, text, image, date});
+    const data = await post(`${API_URL}/posts`, {
+      type,
+      title,
+      text,
+      image,
+      date,
+    });
 
     return data;
   } catch (error) {}
 };
-
-

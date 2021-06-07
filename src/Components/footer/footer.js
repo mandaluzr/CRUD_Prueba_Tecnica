@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className="footer__container">
       <h3 className="titulo" id="contacto">
-        Contacto
+        Si les gusta mi CRUD, pueden contactarme a través del siguiente formulario
       </h3>
       <form className="formulario" action="">
           <div className="input__container">

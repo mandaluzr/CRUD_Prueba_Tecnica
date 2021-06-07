@@ -1,11 +1,11 @@
-.post__container {
+.viewpost__container {
   display: flex;
   flex-direction: column;
   justify-items: center;
   align-items: center;
 }
 
-.post__description {
+.viewpost__description {
   padding: 5px;
   margin: 10px;
   width: 65%;
@@ -30,11 +30,11 @@
   border: 5px solid black;
 }
 
-.post__title {
+.viewpost__title {
   display: flex;
 }
 
-.post__button__container {
+.viewpost__button__container {
     padding: 5px;
     height: 100px;
     width: 67%;
