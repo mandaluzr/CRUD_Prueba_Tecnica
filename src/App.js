@@ -1,7 +1,7 @@
 import Header from "./Components/header/header";
 import Footer from "./Components/footer/footer";
 import PostList from "./Components/postList/postList";
-import CreatePost from "./Components/createPost/createPost";
+import CreatePostComp from "./Components/createPost/createPostComp";
 import ViewPost from "./Components/viewPost/viewPost";
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
@@ -18,7 +18,7 @@ function App() {
             <PostList />
           </Route>
           <Route exact path="/createpost">
-            <CreatePost />
+            <CreatePostComp />
           </Route>
           <Route component={ViewPost} exact path="/post/:id" />
         </Switch>

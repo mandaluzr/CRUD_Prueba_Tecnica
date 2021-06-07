@@ -38,25 +38,58 @@ img {
   flex-direction: column;
   flex-wrap: wrap;
   align-items: left;
-  justify-content: center; 
-  border: 2px solid black;
+  justify-content: center;
+  border: 4px solid black;
+  border-radius: 5px;
 }
+/* @media only screen and (max-width: 500px) {
+  .postList__container img{
+display: none;
+  }
+} */
+
 
 .postList__picture__container {
   display: flex;
   position: absolute;
   flex-direction: row;
   align-items: flex-start;
-  
+}
+
+@media only screen and (max-width: 500px) {
+  .postList__picture__container img{
+    width: 100px;
+  }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 300px) {
+  .postList__picture__container img{
+    display: none;
+  }
 }
 
 .postList__text__container {
- display: flex;
- align-items: baseline; 
- flex-direction: column;
- justify-content: flex-start;
- margin-left: 20%;
- margin-bottom: 2%;
+  display: flex;
+  align-items: baseline;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 20%;
+  margin-bottom: 2%;
+}
+
+@media only screen and (max-width: 1300px) {
+  .postList__text__container {
+    position: relative;
+    margin: auto;
+  }
+}
+@media only screen and (max-width: 700px) {
+  .postList__text__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 50%;
+  }
 }
 
 .postList__title {
@@ -65,7 +98,7 @@ img {
   align-items: left;
 }
 
-.postList_detail__button__container {
+.postList__detail__button__container {
   display: flex;
   flex-direction: row-reverse;
   position: absolute;
@@ -78,13 +111,27 @@ img {
   background: #3895ea;
   color: #fff;
   font-size: 1em;
-  font-weight: 300;
+  font-weight: 400;
   border: none;
   border-radius: 3px;
   padding: 15px 30px;
-
 }
 
 .postList__detail__button:hover {
-  background-color:   rgb(36, 119, 243);
+  background-color: rgb(36, 119, 243);
+}
+
+@media only screen and (max-width: 700px) {
+  .postList__detail__button__container {
+    display: flex !important;
+    flex-direction: column !important;
+    position: relative;
+    margin-left: 50%;
+  }
+}
+@media only screen and (max-width: 470px) {
+  .postList__detail__button {
+    display: flex !important;
+    flex-direction: column !important;
+  }
 }

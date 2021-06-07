@@ -44,8 +44,10 @@ const PostList = () => {
 
   return (
     <div className="postList">
-      <h1>HOLITAS PERRITO MALVADO</h1>
-
+      <h1>Pincha en el botón de abajo para crear tu post</h1>
+      <Link to={"/createpost"} >
+      <button className="createPost__button" > Crea tu Post!</button>
+      </Link>
       <div className="select__container">
         <select
           className="select__button"
@@ -69,7 +71,7 @@ const PostList = () => {
             <h1 className="postList__title">{postDetail.title} </h1>
             <span className="postList__type">{postDetail.type} </span>
             </div>
-            <div className="postList_detail__button__container">
+            <div className="postList__detail__button__container">
             <Link to={`/post/${postDetail.id}`}>
               <button className="postList__detail__button">Detail</button>
             </Link>
