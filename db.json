@@ -3,7 +3,7 @@
     {
       "id": 1,
       "title": "Puente",
-      "text": "Aquí podemos ver un puentecito",
+      "text": "Aquí podemos ver un puentecito. Sigo escribiendo este texto random para ver como se ve. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
       "image": "https://images.unsplash.com/photo-1535986057686-8302eb74360e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80",
       "date": "5/7/2021",
       "type": "advanced"
@@ -11,28 +11,28 @@
     {
       "id": 2,
       "title": "Atardecer",
-      "text": "Un bello atardecer como si estuviésemos en Hawaii",
-      "image": "https://images.unsplash.com/photo-1586348943529-beaae6c28db9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=358&q=80",
+      "text": "Aquí podemos ver a lo lejos una montaña muy bonita. Sigo escribiendo este texto random para ver como se ve. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+      "image": "https://images.unsplash.com/photo-1618218007550-dc5c2459881c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1039&q=80",
       "date": "5/7/2021",
       "type": "advanced"
     },
     {
       "id": 3,
       "title": "Este es un mock Custom",
-      "text": "Escribo poesías en un Mock Custom",
+      "text": "Escribo poesías en un Mock Custom. Sigo escribiendo este texto random para ver como se ve. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
       "date": "7/6/2020",
       "type": "custom"
     },
     {
       "id": 4,
       "title": "Este es otro mock Custom",
-      "text": "El texto es el de cualquier mock Custom",
+      "text": "El texto es el de cualquier mock Custom. Sigo escribiendo este texto random para ver como se ve. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
       "date": "5/20/2021",
       "type": "custom"
     },
     {
       "id": 5,
-      "title": "Este es un mock Simple",
+      "title": "Este es un mock Simple. ",
       "date": "3/11/2021",
       "type": "simple"
     },

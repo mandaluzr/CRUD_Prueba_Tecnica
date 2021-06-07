@@ -17,6 +17,9 @@ function App() {
           <Route exact path="/">
             <PostList />
           </Route>
+          <Route exact path="/createpost">
+            <CreatePost />
+          </Route>
           <Route component={ViewPost} exact path="/post/:id" />
         </Switch>
         <Footer />

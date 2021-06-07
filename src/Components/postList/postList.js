@@ -2,8 +2,6 @@ import { getPosts } from "../../Services/posts";
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
-import {DetailButton} from "../detailButton/detailButton.js"
-
 import "./postList.css";
 
 const PostList = () => {
@@ -64,13 +62,18 @@ const PostList = () => {
       {filteredPosts.map((postDetail, index) => {
         return (
           <div className="postList__container" key={`post-${postDetail.id}`}>
+            <div className="postList__picture__container" > 
+            {renderImage(postDetail.image, postDetail.alt)}
+            </div>
+            <div className="postList__text__container">
             <h1 className="postList__title">{postDetail.title} </h1>
+            <span className="postList__type">{postDetail.type} </span>
+            </div>
+            <div className="postList_detail__button__container">
             <Link to={`/post/${postDetail.id}`}>
-              {renderImage(postDetail.image, postDetail.alt)}
+              <button className="postList__detail__button">Detail</button>
             </Link>
-            <Link>
-              <DetailButton />
-            </Link>
+            </div>
           </div>
         );
       })}
