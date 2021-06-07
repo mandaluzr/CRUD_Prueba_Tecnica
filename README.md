@@ -22,22 +22,6 @@ Si pinchamos en el botón de "Detail" -> Nos permite ver el post en detalle con 
 Si pinchamos en crear post, nos permite crear un post, agregando los datos solicitados.
 Si queremos eliminar el post, debemos pinchar en detail y luego una vez vemos el Post en detalle, pinchar en el botón de eliminar. Tendremos una confirmación de eliminar el post.
 
-hasta finalizar
-Finaliza con un ejemplo de cómo obtener datos del sistema o como usarlos para una pequeña demo
-
-Ejecutando las pruebas ⚙️
-Explica como ejecutar las pruebas automatizadas para este sistema
-
-Analice las pruebas end-to-end 🔩
-Explica que verifican estas pruebas y por qué
-
-Da un ejemplo
-Y las pruebas de estilo de codificación ⌨️
-Explica que verifican estas pruebas y por qué
-
-##Da un ejemplo
-Despliegue 📦
-Agrega notas adicionales sobre como hacer deploy
 
 ##Construido con 🛠️
 
@@ -48,4 +32,4 @@ Marcos Andaluz de Rosas
 
 
 ##Expresiones de Gratitud 🎁
-a MDN
+Developer.mozilla, w3schools y StackOverflow :)
