@@ -20,10 +20,9 @@ const ViewPost = (props) => {
 
   return (
     <div className="viewpost__container">
-      <h1 className="viewpost__title"> Aquí verás el post</h1>
+      <h1 className="viewpost__title">{post.title} </h1>
       <span className="viewpost__description">{post.text}</span>
       <div className="imagenes__container">
-        <h2>{post.title}</h2>
         <img src={post.image} alt="" width={460} height={260} />
       </div>
       <div className="viewpost__button__container">
@@ -45,14 +44,15 @@ const ViewPost = (props) => {
     </div>
   );
 
-  function handleDeleteClick() {
-    alert('Seguro quieres eliminar esto!???')
-    deletePost(id, props.history.push);
+  async function handleDeleteClick() {
+    alert("Seguro quieres eliminar esto!???");
+    await deletePost(id);
+
+    props.history.push("/");
   }
 };
 
 export default ViewPost;
-
 
 /*    {
       "id": 1,

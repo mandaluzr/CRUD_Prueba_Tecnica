@@ -18,32 +18,43 @@
     },
     {
       "id": 3,
-      "title": "Este es un mock Custom",
+      "title": "React",
       "text": "Escribo poesías en un Mock Custom. Sigo escribiendo este texto random para ver como se ve. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       "date": "7/6/2020",
       "type": "custom"
     },
     {
       "id": 4,
-      "title": "Este es otro mock Custom",
+      "title": "Te",
       "text": "El texto es el de cualquier mock Custom. Sigo escribiendo este texto random para ver como se ve. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
       "date": "5/20/2021",
       "type": "custom"
     },
     {
       "id": 5,
-      "title": "Este es un mock Simple. ",
+      "title": "Quiero",
       "date": "3/11/2021",
       "type": "simple"
     },
     {
       "id": 6,
-      "title": "Este es otro mock Simple",
+      "title": "Mucho",
       "date": "3/13/2021",
       "type": "simple"
     },
     {
+      "type": "custom",
+      "title": "Prueba nueva",
+      "text": "hola hola hola",
+      "date": "2021-06-10",
       "id": 7
+    },
+    {
+      "type": "",
+      "title": "ultima prueba",
+      "text": "Agus TKM",
+      "date": "2021-06-10",
+      "id": 8
     }
   ]
 }

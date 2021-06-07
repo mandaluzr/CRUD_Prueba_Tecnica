@@ -1,21 +1,22 @@
 .header__container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 
 .header__title {
-height: 250px;
-width: 100%;
-display: flex;
-align-items: center;
-text-align: center;
-justify-content: center;
-font-size: 30px;
-color: green;
-text-decoration: none;
+  height: 250px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  font-size: 30px;
+  color: black;
+  text-decoration: none;
 }
-
-
+.header__title:link:visited:active {
+  text-decoration: none;
+}

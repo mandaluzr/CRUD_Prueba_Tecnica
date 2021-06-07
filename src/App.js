@@ -14,12 +14,8 @@ function App() {
       <Router>
         <Header />
         <Switch>
-          <Route exact path="/">
-            <PostList />
-          </Route>
-          <Route exact path="/createpost">
-            <CreatePostComp />
-          </Route>
+          <Route component={PostList} exact path="/" />
+          <Route component={CreatePostComp} exact path="/createpost" />
           <Route component={ViewPost} exact path="/post/:id" />
         </Switch>
         <Footer />
