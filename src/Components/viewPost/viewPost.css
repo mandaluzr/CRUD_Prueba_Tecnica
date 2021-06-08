@@ -1,11 +1,11 @@
-.viewpost__container {
+.viewPost__container {
   display: flex;
   flex-direction: column;
   justify-items: center;
   align-items: center;
 }
 
-.viewpost__description {
+.viewPost__description {
   padding: 5px;
   margin: 10px;
   width: 65%;
@@ -30,11 +30,11 @@
   border: 5px solid black;
 }
 
-.viewpost__title {
+.viewPost__title {
   display: flex;
 }
 
-.viewpost__button__container {
+.viewPost__button__container {
   padding: 5px;
   height: 100px;
   width: 67%;
@@ -73,14 +73,6 @@
   display: flex;
   align-content: center;
   margin-top: 1%;
-}
-
-@media only screen and (max-width: 700px) {
-  .imagenes__container {
-    display: flex !important;
-    flex-direction: column !important;
-    position: relative;
-  }
 }
 
 @media only screen and (max-width: 700px) {
