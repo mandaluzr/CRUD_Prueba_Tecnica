@@ -45,7 +45,7 @@ const ViewPost = (props) => {
   );
 
   async function handleDeleteClick() {
-    alert("Seguro quieres eliminar esto!???");
+    alert("¿¡Seguro quieres eliminar esto!?");
     await deletePost(id);
 
     props.history.push("/");

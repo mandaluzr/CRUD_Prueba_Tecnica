@@ -18,7 +18,6 @@ const CreatePostComp = (props) => {
       type
     });
     props.history.push("/");
-    console.log("PROBADO EL CREATE");
   }
 
   return (
