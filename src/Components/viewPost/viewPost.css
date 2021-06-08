@@ -47,15 +47,22 @@
   border-radius: 7%;
   width: 100px;
   height: 30px;
-  background-color: lightblue;
+  background-color: #39dc73;
+  color:#1d3d3f;
   display: flex;
   margin-top: 1%;
   justify-content: center;
   align-items: center;
+  border-width: 2px;
+  border-color: #1d3d3f;
+}
+
+.delete__button:hover {
+  background-color: #6bc4a2;
 }
 
 .start__label {
-    color: green;
+    color:#1d3d3f;;
 }
 
 .date__input {

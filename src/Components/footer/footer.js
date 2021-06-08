@@ -5,7 +5,7 @@ import "./footer.css";
 const Footer = () => {
   return (
     <div className="footer__container">
-      <h3 className="titulo" id="contacto">
+      <h3 className="footer__title" id="contacto">
         Si les gusta mi CRUD, pueden contactarme a través del siguiente formulario
       </h3>
       <form className="formulario" action="">
@@ -14,7 +14,7 @@ const Footer = () => {
         <input type="email" name="email" placeholder="Correo" required />
         </div>
         <textarea name="mensaje" placeholder="Mensaje:" />
-        <input type="submit" name="enviar" placeholder="Enviar" className="boton" />
+        <input type="submit" name="enviar" placeholder="Enviar" className="enviar__button" />
       </form>
     </div>
   );

@@ -44,7 +44,7 @@ const PostList = () => {
 
   return (
     <div className="postList">
-      <h1>Pincha en el botón de abajo para crear tu post</h1>
+      <h1 className="postList__title">Pincha en el botón de abajo para crear tu post</h1>
       <Link to={"/createpost"} >
       <button className="createPost__button" > Crea tu Post!</button>
       </Link>

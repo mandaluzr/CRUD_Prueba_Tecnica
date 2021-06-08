@@ -1,84 +1,85 @@
 .footer__container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 
-
-.titulo {
-	font-size: 24px;
-	line-height: 34px;
-	margin-bottom: 40px;
-	font-weight: 200;
-	color: black;
-    text-align: center;
-    display: flex;
-    flex-direction: column !important;
+.footer__title {
+  font-size: 24px;
+  line-height: 34px;
+  margin-bottom: 40px;
+  font-weight: 200;
+  color: #1d3d3f;
+  text-align: center;
+  display: flex;
+  flex-direction: column !important;
 }
 
 .formulario {
-	display: flex;
-	flex-wrap: wrap;
-    justify-content: space-between;
-    width: 67%;
-    
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 67%;
 }
 
 .formulario input[type="text"],
 .formulario input[type="email"],
 .formulario textarea {
-	border: 2px solid #cecece;
-	border-radius: 2px;
-	padding: 15px 20px;
-	font-size: 20px;
-	color: #a4a4a4;
+  border: 2px solid #cecece;
+  border-radius: 2px;
+  padding: 15px 20px;
+  font-size: 20px;
+  color: #a4a4a4;
 }
 
 .formulario input[type="text"]:focus,
 .formulario input[type="email"]:focus,
 .formulario textarea:focus {
-	border: 5px solid #387bea;
-	
+  border: 5px solid #6bc4a2;
 }
 
 .input__container {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
-.formulario input[type="text"], .formulario input[type="email"] {
-	width: 40%;
-    margin-bottom: 15px;
-    display: flex;
-    justify-content: space-between;
+.formulario input[type="text"],
+.formulario input[type="email"] {
+  width: 40%;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  border-width: 2px;
+  border-color: #1d3d3f;
 }
 
 .formulario textarea {
-	width: 100%;
-	height: 75px;
-	max-width: 100%;
-	min-height: 100px;
-	max-height: 300px;
-	margin-bottom: 15px;
+  width: 100%;
+  height: 75px;
+  max-width: 100%;
+  min-height: 100px;
+  max-height: 300px;
+  margin-bottom: 15px;
+  border-width: 2px;
+  border-color: #1d3d3f;
 }
 
-.boton {
-    margin: auto;
-    background: #3895ea;
-    color: #fff;
-    font-size: 1em;
-    font-weight: 600;
-    border: none;
-    border-radius: 1px;
-    padding: 15px 30px;
-    cursor: pointer;
-
+.enviar__button {
+  margin: auto;
+  background: #39dc73;
+  color: #1d3d3f;
+  font-size: 1em;
+  font-weight: 600;
+  border-radius: 1px;
+  padding: 15px 30px;
+  cursor: pointer;
+  border-width: 2px;
+  border-color: #1d3d3f;
 }
 
-.boton:hover {
-	background: #387bea;
+.enviar__button:hover {
+  background: #6bc4a2;
 }

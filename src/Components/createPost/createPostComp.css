@@ -13,7 +13,7 @@
   line-height: 34px;
   margin-bottom: 40px;
   font-weight: 200;
-  color: black;
+  color: #1d3d3f;
   text-align: center;
   display: flex;
   flex-direction: column !important;
@@ -30,7 +30,8 @@
 .createPost__form input[type="text"],
 .createPost__form input[type="text"]:focus,
 .createPost__form:focus {
-  border: 1px solid #387bea;
+  border-width: 2px;
+  border-color: #1d3d3f;
 }
 
 .createPost__input__container {
@@ -47,6 +48,8 @@
   margin-bottom: 15px;
   display: flex;
   justify-content: space-between;
+  border-width: 2px;
+  border-color: #1d3d3f;
 }
 
 .createPost__file {
@@ -57,16 +60,17 @@
 
 .createPost__button {
   margin: auto;
-  background: #3895ea;
-  color: #fff;
+  background: #39dc73;
+  color: #1d3d3f;
   font-size: 1em;
   font-weight: 600;
-  border: none;
   border-radius: 5px;
   padding: 15px 30px;
   cursor: pointer;
+  border-width: 2px;
+  border-color: #1d3d3f;
 }
 
 .createPost__button:hover {
-  background: #387bea;
+  background: #6bc4a2;
 }

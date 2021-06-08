@@ -41,20 +41,6 @@
       "title": "Mucho",
       "date": "3/13/2021",
       "type": "simple"
-    },
-    {
-      "type": "custom",
-      "title": "Prueba nueva",
-      "text": "hola hola hola",
-      "date": "2021-06-10",
-      "id": 7
-    },
-    {
-      "type": "",
-      "title": "ultima prueba",
-      "text": "Agus TKM",
-      "date": "2021-06-10",
-      "id": 8
     }
   ]
 }
