@@ -34,7 +34,7 @@ Si queremos eliminar el post, debemos pinchar en detail y luego una vez vemos el
 
 #Autores ✒️.
 
-Marcos Andaluz de Rosas
+Marcos Andaluz de Rosas 
 
 
 #Expresiones de Gratitud 🎁.
