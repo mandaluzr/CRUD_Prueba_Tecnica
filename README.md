@@ -5,13 +5,14 @@ La prueba consistió en realizar un CRUD siguiendo un diseño pero con libertade
 Me concentré en la funcionalidad y que sea responsive design. Además de intentar dejar un código limpio, entendible y ordenado.
 
 #Comenzando 🚀.
+
 Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas.
 
 
 #Pre-requisitos 📋.
+
 Clonar el repositorio. LocalHost en el puerto 3000 para el front y puerto 3007 para el server.
 
-#Da un ejemplo.
 
 #Instalación 🔧.
 
