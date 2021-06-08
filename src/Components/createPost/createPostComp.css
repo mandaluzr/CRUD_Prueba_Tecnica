@@ -72,5 +72,6 @@
 }
 
 .createPost__button:hover {
-  background: #6bc4a2;
+  color: white;
+  opacity: 1;
 }

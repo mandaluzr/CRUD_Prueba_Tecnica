@@ -35,12 +35,12 @@
 }
 
 .viewpost__button__container {
-    padding: 5px;
-    height: 100px;
-    width: 67%;
-    display:flex;
-    align-items: center;
-    justify-content: flex-end;
+  padding: 5px;
+  height: 100px;
+  width: 67%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
 }
 
 .delete__button {
@@ -48,7 +48,7 @@
   width: 100px;
   height: 30px;
   background-color: #39dc73;
-  color:#1d3d3f;
+  color: #1d3d3f;
   display: flex;
   margin-top: 1%;
   justify-content: center;
@@ -58,24 +58,25 @@
 }
 
 .delete__button:hover {
-  background-color: #6bc4a2;
+  color: white;
+  opacity: 1;
 }
 
 .start__label {
-    color:#1d3d3f;;
+  color: #1d3d3f;
 }
 
 .date__input {
-    position: relative;
-    width: 1000px;
-    height: 30px;
-    display: flex;
-    align-content: center;
-    margin-top: 1%;
+  position: relative;
+  width: 1000px;
+  height: 30px;
+  display: flex;
+  align-content: center;
+  margin-top: 1%;
 }
 
 @media only screen and (max-width: 700px) {
-  .imagenes__container{
+  .imagenes__container {
     display: flex !important;
     flex-direction: column !important;
     position: relative;
@@ -83,7 +84,7 @@
 }
 
 @media only screen and (max-width: 700px) {
-  .imagenes__container img{
+  .imagenes__container img {
     position: relative;
     width: 185px;
   }

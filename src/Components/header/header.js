@@ -7,7 +7,7 @@ const Header = () => {
     return (
         <div className="header__container">
             <h1 className="header__title">
-            <Link to={"/"} text-decoration="none">
+            <Link to={"/"}>
                 CRUD para SignaturIt
             </Link>
             </h1>

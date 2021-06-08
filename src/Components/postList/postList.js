@@ -79,6 +79,11 @@ const PostList = () => {
           </div>
         );
       })}
+        <div className="paging__container">
+            <div className="paging__box" >Page 1</div>
+            <div className="paging__box" >Page 2</div>
+            <div className="paging__box" >...</div>
+        </div>
     </div>
   );
 };
