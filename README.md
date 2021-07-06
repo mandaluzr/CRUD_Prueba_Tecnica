@@ -1,5 +1,5 @@
 
-#Prueba Técnica para SignaturIt.
+#Prueba Técnica para XX para la posición de front-end dev.
 
 La prueba consistió en realizar un CRUD siguiendo un diseño pero con libertades para poder agregar algunas cosas extras.
 Me concentré en la funcionalidad y que sea responsive design. Además de intentar dejar un código limpio, entendible y ordenado.
